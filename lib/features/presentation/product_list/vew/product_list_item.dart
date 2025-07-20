@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/utils/constants/app_colors.dart';
-import 'package:shops2/utils/extensions/app_text_extension.dart';
-import 'package:shops2/utils/reusable_widgets/app_button.dart';
-import 'package:shops2/utils/reusable_widgets/app_container.dart';
-import 'package:shops2/utils/reusable_widgets/app_image.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/utils/constants/app_colors.dart';
+import 'package:PoketFM/utils/extensions/app_text_extension.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_button.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_container.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_image.dart';
 
 class ProductListItem extends StatelessWidget {
   final Product product;

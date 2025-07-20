@@ -1,4 +1,4 @@
-import 'package:shops2/utils/constants/db_paths.dart';
+import 'package:PoketFM/utils/constants/db_paths.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 class AppDatabase {

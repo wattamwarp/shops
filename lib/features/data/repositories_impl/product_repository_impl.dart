@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shops2/utils/constants/asset_paths.dart';
-import 'package:shops2/wrappers/repo_response/repo_response.dart';
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/features/domain/repositories/product_repository.dart';
+import 'package:PoketFM/utils/constants/asset_paths.dart';
+import 'package:PoketFM/wrappers/repo_response/repo_response.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/features/domain/repositories/product_repository.dart';
 import 'package:get_it/get_it.dart';
-import 'package:shops2/utils/constants/logger.dart';
+import 'package:PoketFM/utils/constants/logger.dart';
 
 class ProductRepositoryImpl implements ProductRepository {
   @override

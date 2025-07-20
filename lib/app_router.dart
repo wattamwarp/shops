@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shops2/features/presentation/cart/view/cart_screen.dart';
-import 'package:shops2/utils/constants/route_paths.dart';
+import 'package:PoketFM/features/presentation/cart/view/cart_screen.dart';
+import 'package:PoketFM/utils/constants/route_paths.dart';
 import 'features/presentation/product_list/vew/product_list_screen.dart';
 import 'features/presentation/product_detail/view/product_detail_screen.dart';
 import 'features/domain/entities/product.dart';

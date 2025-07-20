@@ -1,5 +1,5 @@
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/features/domain/repositories/cart_repository.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/features/domain/repositories/cart_repository.dart';
 
 
 class UpdateCartQuantityUseCase {

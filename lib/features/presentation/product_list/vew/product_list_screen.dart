@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:shops2/features/data/repositories_impl/product_repository_impl.dart';
+import 'package:PoketFM/features/data/repositories_impl/product_repository_impl.dart';
 import 'dart:async';
-import 'package:shops2/features/presentation/product_list/bloc/product_bloc.dart';
-import 'package:shops2/features/presentation/product_list/bloc/product_event.dart';
-import 'package:shops2/features/presentation/product_list/bloc/product_state.dart';
-import 'package:shops2/features/presentation/product_list/vew/product_list_item.dart';
-import 'package:shops2/utils/constants/app_colors.dart';
-import 'package:shops2/utils/extensions/app_text_extension.dart';
-import 'package:shops2/utils/reusable_widgets/app_button.dart';
+import 'package:PoketFM/features/presentation/product_list/bloc/product_bloc.dart';
+import 'package:PoketFM/features/presentation/product_list/bloc/product_event.dart';
+import 'package:PoketFM/features/presentation/product_list/bloc/product_state.dart';
+import 'package:PoketFM/features/presentation/product_list/vew/product_list_item.dart';
+import 'package:PoketFM/utils/constants/app_colors.dart';
+import 'package:PoketFM/utils/extensions/app_text_extension.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_button.dart';
 
 class ProductListScreen extends StatelessWidget {
   const ProductListScreen({super.key});

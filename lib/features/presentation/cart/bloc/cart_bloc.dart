@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shops2/features/domain/repositories/cart_repository.dart';
-import 'package:shops2/wrappers/bloc/base_bloc.dart';
+import 'package:PoketFM/features/domain/repositories/cart_repository.dart';
+import 'package:PoketFM/wrappers/bloc/base_bloc.dart';
 import 'cart_event.dart';
 import 'cart_state.dart';
 

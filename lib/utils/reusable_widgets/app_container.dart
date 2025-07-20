@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shops2/utils/constants/app_colors.dart';
+import 'package:PoketFM/utils/constants/app_colors.dart';
 
 class AppContainer extends StatelessWidget {
   final Widget? child;

@@ -1,4 +1,4 @@
-import 'package:shops2/wrappers/bloc/base_bloc.dart';
+import 'package:PoketFM/wrappers/bloc/base_bloc.dart';
 
 abstract class CartEvent extends BaseEvent {
   const CartEvent();

@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/wrappers/bloc/base_bloc.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/wrappers/bloc/base_bloc.dart';
 
 abstract class CartState extends BaseState {
   const CartState();

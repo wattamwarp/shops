@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/utils/extensions/app_text_extension.dart';
-import 'package:shops2/utils/reusable_widgets/app_image.dart';
-import 'package:shops2/utils/constants/app_colors.dart';
-import 'package:shops2/utils/reusable_widgets/app_container.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/utils/extensions/app_text_extension.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_image.dart';
+import 'package:PoketFM/utils/constants/app_colors.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_container.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/product_detail_bloc.dart';
 import '../bloc/product_detail_event.dart';
 import '../bloc/product_detail_state.dart';
-import 'package:shops2/features/data/repositories_impl/cart_repository_impl.dart';
-import 'package:shops2/utils/reusable_widgets/app_button.dart';
+import 'package:PoketFM/features/data/repositories_impl/cart_repository_impl.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_button.dart';
 
 class ProductDetailScreen extends StatelessWidget {
   final Product product;

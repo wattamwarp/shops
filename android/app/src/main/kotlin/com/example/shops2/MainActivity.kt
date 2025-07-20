@@ -1,4 +1,4 @@
-package com.example.shops2
+package com.example.PoketFM
 
 import io.flutter.embedding.android.FlutterActivity
 

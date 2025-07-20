@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:shops2/utils/constants/app_colors.dart';
-import 'package:shops2/utils/reusable_widgets/app_container.dart';
+import 'package:PoketFM/utils/constants/app_colors.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_container.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shops2/features/data/repositories_impl/cart_repository_impl.dart';
-import 'package:shops2/features/presentation/cart/bloc/cart_bloc.dart';
-import 'package:shops2/features/presentation/cart/bloc/cart_event.dart';
-import 'package:shops2/features/presentation/cart/bloc/cart_state.dart';
-import 'package:shops2/utils/extensions/app_text_extension.dart';
-import 'package:shops2/utils/reusable_widgets/app_image.dart';
+import 'package:PoketFM/features/data/repositories_impl/cart_repository_impl.dart';
+import 'package:PoketFM/features/presentation/cart/bloc/cart_bloc.dart';
+import 'package:PoketFM/features/presentation/cart/bloc/cart_event.dart';
+import 'package:PoketFM/features/presentation/cart/bloc/cart_state.dart';
+import 'package:PoketFM/utils/extensions/app_text_extension.dart';
+import 'package:PoketFM/utils/reusable_widgets/app_image.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});

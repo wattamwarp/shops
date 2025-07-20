@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shops2/wrappers/bloc/base_bloc.dart';
-import 'package:shops2/wrappers/repo_response/repo_response.dart';
-import 'package:shops2/features/data/repositories_impl/cart_repository_impl.dart';
-import 'package:shops2/features/domain/repositories/product_repository.dart';
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/features/domain/repositories/cart_repository.dart';
-import 'package:shops2/features/domain/usecases/update_cart_quantity.dart';
+import 'package:PoketFM/wrappers/bloc/base_bloc.dart';
+import 'package:PoketFM/wrappers/repo_response/repo_response.dart';
+import 'package:PoketFM/features/data/repositories_impl/cart_repository_impl.dart';
+import 'package:PoketFM/features/domain/repositories/product_repository.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/features/domain/repositories/cart_repository.dart';
+import 'package:PoketFM/features/domain/usecases/update_cart_quantity.dart';
 import 'product_event.dart';
 import 'product_state.dart';
 

@@ -1,8 +1,8 @@
 
 import 'package:get_it/get_it.dart';
-import 'package:shops2/features/data/datasources/cart_local_datasource.dart';
-import 'package:shops2/features/domain/entities/product.dart';
-import 'package:shops2/features/domain/repositories/cart_repository.dart';
+import 'package:PoketFM/features/data/datasources/cart_local_datasource.dart';
+import 'package:PoketFM/features/domain/entities/product.dart';
+import 'package:PoketFM/features/domain/repositories/cart_repository.dart';
 
 class CartRepositoryImpl implements CartRepository {
   final CartLocalDatasource localDatasource;

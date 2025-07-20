@@ -1,6 +1,6 @@
 {
-    "name": "shops2",
-    "short_name": "shops2",
+    "name": "PoketFM",
+    "short_name": "PoketFM",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

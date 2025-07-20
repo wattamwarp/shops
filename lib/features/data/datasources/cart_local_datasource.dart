@@ -1,5 +1,5 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:shops2/core/db/app_database.dart';
+import 'package:PoketFM/core/db/app_database.dart';
 import 'package:get_it/get_it.dart';
 
 class CartLocalDatasource {

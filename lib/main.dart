@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:shops2/di.dart';
+import 'package:PoketFM/di.dart';
 import 'app_router.dart';
 
 void main() {
