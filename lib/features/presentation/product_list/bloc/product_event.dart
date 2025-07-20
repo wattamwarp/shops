@@ -14,7 +14,21 @@ abstract class ProductEvent extends BaseEvent {
   List<Object?> get props => [];
 }
 
-class LoadProducts extends ProductEvent {}
+class LoadProducts extends ProductEvent {
+  final int page;
+  final int pageSize;
+  const LoadProducts({this.page = 1, this.pageSize = 10});
+  @override
+  List<Object?> get props => [page, pageSize];
+}
+
+class LoadMoreProducts extends ProductEvent {
+  final int page;
+  final int pageSize;
+  const LoadMoreProducts({required this.page, required this.pageSize});
+  @override
+  List<Object?> get props => [page, pageSize];
+}
 
 class AddToCart extends ProductEvent {
   final Product product;

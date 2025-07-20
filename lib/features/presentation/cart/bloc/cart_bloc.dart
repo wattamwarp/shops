@@ -1,9 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shops2/features/domain/repositories/cart_repository.dart';
+import 'package:shops2/wrappers/bloc/base_bloc.dart';
 import 'cart_event.dart';
 import 'cart_state.dart';
 
-class CartBloc extends Bloc<CartEvent, CartState> {
+class CartBloc extends BaseBloc<CartEvent, CartState> {
   final CartRepository repository;
   CartBloc(this.repository) : super(CartLoading()) {
     on<LoadCart>(_onLoadCart);

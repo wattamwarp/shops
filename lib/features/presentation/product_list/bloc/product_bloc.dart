@@ -18,6 +18,7 @@ class ProductBloc extends BaseBloc<ProductEvent, ProductState> {
           updateCartQuantity ?? UpdateCartQuantityUseCase(CartRepositoryImpl()),
       super(const ProductLoading()) {
     on<LoadProducts>(_onLoadProducts);
+    on<LoadMoreProducts>(_onLoadMoreProducts);
     on<AddToCart>(_onAddToCart);
     on<RemoveFromCart>(_onRemoveFromCart);
     on<ChangeQuantity>(_onChangeQuantity);
@@ -49,9 +50,57 @@ class ProductBloc extends BaseBloc<ProductEvent, ProductState> {
       );
       return;
     }
-    final products = response.data;
+    final allProducts = response.data;
     final cart = await _getCartMap();
-    emit(ProductLoaded(products: products, cart: cart));
+    final start = 0;
+    final end = event.pageSize;
+    final pagedProducts = allProducts.length > end
+        ? allProducts.sublist(start, end)
+        : allProducts;
+    final hasReachedEnd = pagedProducts.length >= allProducts.length;
+    emit(
+      ProductLoaded(
+        products: pagedProducts,
+        cart: cart,
+        hasReachedEnd: hasReachedEnd,
+        page: 1,
+        pageSize: event.pageSize,
+      ),
+    );
+  }
+
+  Future<void> _onLoadMoreProducts(
+    LoadMoreProducts event,
+    Emitter<ProductState> emit,
+  ) async {
+    if (state is! ProductLoaded) return;
+    final loaded = state as ProductLoaded;
+    final response = await repository.fetchProducts();
+    if (response is! Success<List<Product>>) {
+      response.when(
+        success: (_) {},
+        error: (message) => emit(ProductError(message)),
+      );
+      return;
+    }
+    final allProducts = response.data;
+    final start = loaded.products.length;
+    final end = start + event.pageSize;
+    final nextProducts = allProducts.length > end
+        ? allProducts.sublist(start, end)
+        : allProducts.sublist(start);
+    final newProducts = List<Product>.from(loaded.products)
+      ..addAll(nextProducts);
+    final hasReachedEnd = newProducts.length >= allProducts.length;
+    emit(
+      ProductLoaded(
+        products: newProducts,
+        cart: loaded.cart,
+        hasReachedEnd: hasReachedEnd,
+        page: loaded.page + 1,
+        pageSize: event.pageSize,
+      ),
+    );
   }
 
   Future<Map<String, int>> _getCartMap() async {

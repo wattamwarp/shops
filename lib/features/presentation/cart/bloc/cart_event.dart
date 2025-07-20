@@ -1,6 +1,6 @@
-import 'package:equatable/equatable.dart';
+import 'package:shops2/wrappers/bloc/base_bloc.dart';
 
-abstract class CartEvent extends Equatable {
+abstract class CartEvent extends BaseEvent {
   const CartEvent();
   @override
   List<Object?> get props => [];

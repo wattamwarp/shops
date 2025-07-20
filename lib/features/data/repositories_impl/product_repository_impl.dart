@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:shops2/utils/constants/asset_paths.dart';
 import 'package:shops2/wrappers/repo_response/repo_response.dart';
 import 'package:shops2/features/domain/entities/product.dart';
 import 'package:shops2/features/domain/repositories/product_repository.dart';
@@ -10,9 +11,9 @@ class ProductRepositoryImpl implements ProductRepository {
   @override
   Future<RepoResponse<List<Product>>> fetchProducts() async {
     try {
-      await Future.delayed(const Duration(milliseconds: 500));
+      await Future.delayed(const Duration(seconds: 2));
       final String jsonString = await rootBundle.loadString(
-        'lib/features/data/datasources/products.json',
+        AssetPaths.productJson,
       );
       final List<dynamic> jsonList = json.decode(jsonString);
       final products = jsonList

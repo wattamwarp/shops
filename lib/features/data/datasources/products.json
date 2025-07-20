@@ -19,5 +19,264 @@
     "description": "Creamy pasta with rich Alfredo sauce",
     "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
     "price": 7.25
+  },
+  {
+    "id": "4",
+    "name": "French Fries",
+    "description": "Crispy golden fries with a pinch of salt",
+    "imageUrl": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
+    "price": 3.50
+  },
+  {
+    "id": "5",
+    "name": "Chocolate Shake",
+    "description": "Rich and creamy chocolate milkshake",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 4.75
+  },
+  {
+    "id": "6",
+    "name": "Caesar Salad",
+    "description": "Fresh romaine lettuce with Caesar dressing",
+    "imageUrl": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "price": 6.00
+  },
+  {
+    "id": "7",
+    "name": "Grilled Sandwich",
+    "description": "Toasted sandwich with veggies and cheese",
+    "imageUrl": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg",
+    "price": 5.00
+  },
+  {
+    "id": "8",
+    "name": "Chicken Wrap",
+    "description": "Grilled chicken with veggies in a soft wrap",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 6.50
+  },
+  {
+    "id": "9",
+    "name": "Paneer Tikka",
+    "description": "Spicy grilled paneer cubes with veggies",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 7.00
+  },
+  {
+    "id": "10",
+    "name": "Mushroom Soup",
+    "description": "Creamy soup with fresh mushrooms",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 4.25
+  },
+  {
+    "id": "11",
+    "name": "Garlic Bread",
+    "description": "Toasted bread with garlic and herbs",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 3.75
+  },
+  {
+    "id": "12",
+    "name": "Falafel Bowl",
+    "description": "Falafel balls with salad and hummus",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 8.00
+  },
+  {
+    "id": "13",
+    "name": "Egg Fried Rice",
+    "description": "Rice stir-fried with eggs and veggies",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 6.25
+  },
+  {
+    "id": "14",
+    "name": "Lemonade",
+    "description": "Refreshing homemade lemonade",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 2.50
+  },
+  {
+    "id": "15",
+    "name": "Tandoori Chicken",
+    "description": "Spicy tandoori chicken with salad",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 9.50
+  },
+  {
+    "id": "16",
+    "name": "Greek Salad",
+    "description": "Salad with feta cheese, olives, and veggies",
+    "imageUrl": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "price": 6.75
+  },
+  {
+    "id": "17",
+    "name": "Veg Spring Rolls",
+    "description": "Crispy rolls stuffed with veggies",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 5.25
+  },
+  {
+    "id": "18",
+    "name": "Fish Curry",
+    "description": "Spicy fish curry with rice",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 10.00
+  },
+  {
+    "id": "19",
+    "name": "Veggie Pizza",
+    "description": "Pizza loaded with fresh vegetables",
+    "imageUrl": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+    "price": 9.25
+  },
+  {
+    "id": "20",
+    "name": "Berry Smoothie",
+    "description": "Mixed berry smoothie with yogurt",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 4.50
+  },
+  {
+    "id": "21",
+    "name": "Chicken Biryani",
+    "description": "Aromatic rice with spiced chicken",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 11.00
+  },
+  {
+    "id": "22",
+    "name": "Veg Hakka Noodles",
+    "description": "Stir-fried noodles with vegetables",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 7.00
+  },
+  {
+    "id": "23",
+    "name": "Cold Coffee",
+    "description": "Chilled coffee with ice cream",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 3.99
+  },
+  {
+    "id": "24",
+    "name": "Fruit Salad",
+    "description": "Fresh seasonal fruits in a bowl",
+    "imageUrl": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "price": 5.50
+  },
+  {
+    "id": "25",
+    "name": "Chicken Nuggets",
+    "description": "Crispy chicken nuggets with dip",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 6.00
+  },
+  {
+    "id": "26",
+    "name": "Veggie Wrap",
+    "description": "Wrap filled with fresh veggies and sauce",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 5.75
+  },
+  {
+    "id": "27",
+    "name": "Tomato Soup",
+    "description": "Classic tomato soup with herbs",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 4.00
+  },
+  {
+    "id": "28",
+    "name": "Club Sandwich",
+    "description": "Triple layered sandwich with chicken and veggies",
+    "imageUrl": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg",
+    "price": 7.50
+  },
+  {
+    "id": "29",
+    "name": "Mango Lassi",
+    "description": "Sweet mango yogurt drink",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 3.99
+  },
+  {
+    "id": "30",
+    "name": "Chicken Caesar Wrap",
+    "description": "Grilled chicken, lettuce, and Caesar dressing in a wrap",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 7.99
+  },
+  {
+    "id": "31",
+    "name": "Veggie Omelette",
+    "description": "Egg omelette with fresh vegetables",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 5.25
+  },
+  {
+    "id": "32",
+    "name": "Chicken Shawarma",
+    "description": "Grilled chicken with veggies in pita bread",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 8.50
+  },
+  {
+    "id": "33",
+    "name": "Veggie Quesadilla",
+    "description": "Tortilla filled with cheese and veggies",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 6.25
+  },
+  {
+    "id": "34",
+    "name": "Chicken Tikka Masala",
+    "description": "Chicken in creamy spiced tomato sauce",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 10.50
+  },
+  {
+    "id": "35",
+    "name": "Veggie Samosa",
+    "description": "Crispy pastry filled with spiced potatoes and peas",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 3.25
+  },
+  {
+    "id": "36",
+    "name": "Chicken Popcorn",
+    "description": "Bite-sized crispy chicken pieces",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 6.75
+  },
+  {
+    "id": "37",
+    "name": "Veggie Burrito",
+    "description": "Burrito stuffed with beans, rice, and veggies",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 7.25
+  },
+  {
+    "id": "38",
+    "name": "Chicken Wings",
+    "description": "Spicy chicken wings with dip",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 8.25
+  },
+  {
+    "id": "39",
+    "name": "Veggie Pizza Pocket",
+    "description": "Pocket bread stuffed with pizza toppings",
+    "imageUrl": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+    "price": 5.99
+  },
+  {
+    "id": "40",
+    "name": "Chicken Kathi Roll",
+    "description": "Spiced chicken rolled in paratha",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 7.75
   }
 ]

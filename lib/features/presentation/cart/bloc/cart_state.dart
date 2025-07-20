@@ -1,7 +1,8 @@
 import 'package:equatable/equatable.dart';
-import '../../../domain/entities/product.dart';
+import 'package:shops2/features/domain/entities/product.dart';
+import 'package:shops2/wrappers/bloc/base_bloc.dart';
 
-abstract class CartState extends Equatable {
+abstract class CartState extends BaseState {
   const CartState();
   @override
   List<Object?> get props => [];

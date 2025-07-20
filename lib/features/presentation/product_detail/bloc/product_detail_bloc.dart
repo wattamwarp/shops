@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shops2/features/domain/entities/product.dart';
 import 'package:shops2/features/data/repositories_impl/cart_repository_impl.dart';
 import 'package:shops2/features/domain/repositories/cart_repository.dart';
+import 'package:shops2/wrappers/bloc/base_bloc.dart';
 import 'product_detail_event.dart';
 import 'product_detail_state.dart';
 
-class ProductDetailBloc extends Bloc<ProductDetailEvent, ProductDetailState> {
+class ProductDetailBloc extends BaseBloc<ProductDetailEvent, ProductDetailState> {
   final CartRepositoryImpl cartRepository;
   ProductDetailBloc(this.cartRepository) : super(ProductDetailLoading()) {
     on<LoadProductDetail>(_onLoadProductDetail);
