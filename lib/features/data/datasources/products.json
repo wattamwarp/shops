@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Pizza Margherita",
+    "description": "Classic delight with 100% real mozzarella cheese",
+    "imageUrl": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+    "price": 8.99
+  },
+  {
+    "id": "2",
+    "name": "Veggie Burger",
+    "description": "Loaded with fresh veggies and sauces",
+    "imageUrl": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+    "price": 5.49
+  },
+  {
+    "id": "3",
+    "name": "Pasta Alfredo",
+    "description": "Creamy pasta with rich Alfredo sauce",
+    "imageUrl": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "price": 7.25
+  }
+]
