@@ -58,6 +58,36 @@ apk/                   # Prebuilt APK for direct install
 - **Scalable Navigation**: Named routes and a central router make it easy to add new screens and features without breaking existing flows.
 - **Testability**: The architecture allows for easy unit and widget testing, as dependencies can be mocked and logic is decoupled from UI.
 
+## Project Q&A
+
+### How did you approach the task?
+- I started by designing a scalable, modular architecture using Clean Architecture principles, ensuring clear separation between data, domain, and presentation layers.
+- I enforced the use of custom widgets and extensions for all UI elements to guarantee consistency and easy theming.
+- I implemented BLoC for robust state management and used dependency injection (get_it) for loose coupling and testability.
+- Features like pagination, pull-to-refresh, and persistent cart were prioritized for a modern, user-friendly experience.
+
+### What packages did you choose and why?
+- **flutter_bloc**: For predictable, testable state management using the BLoC pattern.
+- **get_it**: For dependency injection, making the codebase modular and easy to test.
+- **sqflite**: For local SQLite database support, enabling persistent cart storage.
+- **path**: For safe file path handling with SQLite.
+- **cached_network_image**: For efficient, cached image loading from the network.
+- **mockito, bloc_test**: For unit testing BLoC and repository logic.
+
+### What architectural decisions did you make?
+- **Clean Architecture**: Strict separation of concerns between data, domain, and presentation.
+- **Repository Pattern**: All data access is abstracted, making it easy to swap data sources or mock them in tests.
+- **BLoC Everywhere**: All business logic and UI state is managed via BLoC, ensuring a single source of truth and easy debugging.
+- **Custom Widgets/Extensions**: All UI uses custom components for maintainability and a unified look.
+- **Centralized Constants**: Colors, paths, and routes are managed in dedicated files for consistency.
+- **Dependency Injection**: All services and repositories are injected, not hardcoded, for flexibility and testability.
+
+### What tradeoffs did you face?
+- **Complexity vs. Simplicity**: Clean Architecture and BLoC add boilerplate and learning curve, but greatly improve maintainability and scalability for larger projects.
+- **Performance vs. Flexibility**: Using BLoC and dependency injection can add minor overhead, but the benefits in testability and modularity outweigh the cost for most apps.
+- **Custom Widgets vs. Stock Widgets**: Enforcing custom widgets everywhere increases initial development time, but ensures a consistent and easily updatable UI.
+- **Local JSON for Products**: Using a local JSON file for products is simple and fast for demo/testing, but would need to be replaced with a remote API for production scalability.
+
 ## Getting Started
 1. Install Flutter and dependencies:
    ```sh
