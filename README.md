@@ -7,6 +7,7 @@ A scalable, modular Flutter application for a product menu and cart, using BLoC,
 **The latest APK build is included in this repository for your convenience.**
 - You can find the APK file in the root of the project.
 - Download and install it directly on your Android device to try the app without building from source.
+- https://drive.google.com/file/d/1crQ2zhgH8hZVlJRfdPm3Fzh0AX2VsqGx/view?usp=sharing
 
 ## Features
 - Product listing with pagination and pull-to-refresh
@@ -66,24 +67,7 @@ apk/                   # Prebuilt APK for direct install
    ```sh
    flutter run
    ```
-
-## Running Unit Tests
-1. Add the following dev dependencies to your `pubspec.yaml`:
-   ```yaml
-   dev_dependencies:
-     flutter_test:
-       sdk: flutter
-     mockito: ^5.0.0
-     bloc_test: ^9.0.0
-   ```
-2. Write your tests in the `test/` directory. Example: `test/product_bloc_test.dart`.
-3. Run all tests:
-   ```sh
-   flutter test
-   ```
-
-The project includes a sample BLoC test for the product list feature. You can add more tests for other BLoCs, repositories, and widgets following the same pattern.
-
+   
 ## Customization
 - Add products to `lib/features/data/datasources/products.json`.
 - Update colors in `lib/utils/constants/app_colors.dart`.
